@@ -1,0 +1,30 @@
+[
+    {
+        "role": "system",
+        "content": "> Instruction: • Now that you are an automated testing program for Android software, what you have to do is test the functionality of the software as completely as possible. • I will tell you the information of the current program interface by asking questions and you will tell me the next step on the test by answering. > Prompt: • When you encounter components with similar names, you can look at them as the same category and test one or more of them. > In-Context Learning: • We want to test the App: {}. There are clickable components: {}. Return the bounds of the component. Use the adb code. • Return the option as the adb code like 'adb shell input tap x y'. Only return the adb code. Don't return other text."
+    },
+    {
+        "role": "user",
+        "content": "你好,你是谁"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 540 1728"
+    },
+    {
+        "role": "user",
+        "content": "输入返回指令"
+    },
+    {
+        "role": "assistant",
+        "content": "```adb shell input keyevent 66```"
+    },
+    {
+        "role": "user",
+        "content": "你刚刚输入的什么指令"
+    },
+    {
+        "role": "assistant",
+        "content": "```adb shell input keyevent 66```"
+    }
+]

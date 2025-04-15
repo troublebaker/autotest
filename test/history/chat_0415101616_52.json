@@ -1,0 +1,150 @@
+[
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 195 1483"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/touch_outside': '[0,72][984,1824]', 'tv.danmaku.bili:id/avatar': '[39,825][159,945]', '食品科学阿祖': '[189,819][441,891]', 'tv.danmaku.bili:id/follow': '[465,819][645,891]', '42.9万粉丝\\xa0\\xa0\\xa0180投稿\\xa0\\xa0\\xa0357.8万获赞': '[189,899][774,948]', '进入空间': '[822,819][978,948]', 'tv.danmaku.bili:id/space_dialog_goto_icon': '[978,851][984,917]', '[24,987][540,1425]': '[24,987][540,1425]', '[540,987][984,1425]': '[540,987][984,1425]', '[24,1425][540,1824]': '[24,1425][540,1824]', '[540,1425][984,1824]': '[540,1425][984,1824]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 189 819"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/background': '[0,0][1080,402]', 'tv.danmaku.bili:id/space_live_avatar_view': '[24,282][384,642]', 'tv.danmaku.bili:id/space_avatar_view': '[24,282][384,642]', 'tv.danmaku.bili:id/fans_layout': '[465,423][656,529]', 'tv.danmaku.bili:id/attentions_layout': '[659,423][850,529]', 'tv.danmaku.bili:id/likes_layout': '[853,423][1044,529]', 'tv.danmaku.bili:id/charge_plus_button': '[465,552][714,642]', 'tv.danmaku.bili:id/follow_button': '[732,552][1044,642]', 'tv.danmaku.bili:id/vip_nameplate': '[462,693][669,753]', 'tv.danmaku.bili:id/header_info_expand_root': '[36,784][1044,987]', 'tv.danmaku.bili:id/header_info_verify_content': '[36,784][652,838]', '详情': '[936,787][1044,833]', 'tv.danmaku.bili:id/space_entrance_icon': '[36,862][84,907]', '找我官方合作': '[93,862][309,911]', '[36,935][255,987]': '[36,935][255,987]', '[285,935][531,987]': '[285,935][531,987]', '[36,1023][522,1154]': '[36,1023][522,1154]', '[558,1023][1044,1154]': '[558,1023][1044,1154]', 'tv.danmaku.bili:id/back_icon': '[21,111][111,201]', '[714,111][804,201]': '[714,111][804,201]', 'tv.danmaku.bili:id/search_icon': '[840,111][930,201]', 'tv.danmaku.bili:id/overflow': '[966,111][1056,201]', '主页': '[0,1204][270,1324]', '动态': '[270,1204][540,1324]', '投稿': '[540,1204][810,1324]', '小店': '[810,1204][1080,1324]', '播放全部': '[21,1455][297,1539]', '最新发布': '[846,1473][1044,1522]', '[0,1539][1080,1815]': '[0,1539][1080,1815]', 'tv.danmaku.bili:id/more': '[978,1719][1074,1815]', '[0,1815][1080,1920]': '[0,1815][1080,1920]', '[18,1347][186,1425]': '[18,1347][186,1425]', '[186,1347][354,1425]': '[186,1347][354,1425]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 24 282"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'拒绝': '[540,1044][732,1188]', '允许': '[732,1044][924,1188]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 540 1044"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'知道了': '[792,1189][930,1249]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 792 1189"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'不再询问': '[168,990][924,1134]', '拒绝': '[540,1110][732,1254]', '允许': '[732,1110][924,1254]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 540 1110"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'不再询问': '[168,990][924,1134]', '拒绝': '[540,1110][732,1254]', '允许': '[732,1110][924,1254]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 732 1110"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'保存图片': '[120,1476][960,1584]'}如果这次的组件和上次回答相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 120 1476"
+    }
+]

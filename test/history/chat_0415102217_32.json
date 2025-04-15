@@ -1,0 +1,62 @@
+[
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 975 1515"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/touch_outside': '[0,537][984,1824]', '[48,1488][528,1617]': '[48,1488][528,1617]', '[552,1488][984,1617]': '[552,1488][984,1617]', '[48,1641][528,1770]': '[48,1641][528,1770]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 256 1589"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'个人主页，按钮': '[30,96][171,216]', '搜索栏，按钮': '[213,105][768,207]', '游戏中心,按钮': '[804,87][942,225]', '消息,435条未读,按钮': '[942,87][1080,225]', '直播,6之1,标签': '[0,240][167,348]', '推荐,6之2,标签': '[167,240][333,348]', '热门,6之3,标签': '[333,240][493,348]', '动画,6之4,标签': '[493,240][653,348]', '影视,6之5,标签': '[653,240][813,348]', '新征程,6之6,标签': '[813,240][963,348]', 'tv.danmaku.bili:id/category_click_area': '[918,240][1080,348]', '宣传图片，参与活动赢取适乐肤惊喜礼品，10065之20000，轻点两下查看详情页': '[15,360][1065,951]', '视频,07年高中生第一次cos正片【银狼】,36.9万观看,364弹幕,时长0分钟14秒,UP主氵水水wo,8万点赞,': '[15,966][532,1608]', '8万点赞': '[39,1532][181,1581]', '更多': '[442,1515][532,1605]', '撤销': '[636,1416][978,1545]', '视频,..缩模也回不去了，那个塔斯丁狗的版本,10.5万观看,133弹幕,时长1分钟40秒,UP主牢诺来袭,': '[15,1623][532,1920]', ',总感觉很累的人，身体到底怎么了（不是懒）,,轻点两下查看详情': '[548,1623][1065,1920]', '首页,5之1,标签': '[0,1776][216,1920]', '动态,5之2,标签': '[216,1776][432,1920]', '发布内容,5之3,标签': '[432,1776][648,1920]', '会员购,5之4,标签': '[648,1776][864,1920]', '我的,5之5,标签': '[864,1776][1080,1920]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/layer_avatar': '[40,1485][160,1605]', '食品科学阿祖': '[195,1483][447,1555]', 'tv.danmaku.bili:id/follow': '[471,1483][657,1555]', '42.9万粉丝': '[195,1561][373,1610]', '  514.3万播放  ': '[36,1655][912,1713]', 'tv.danmaku.bili:id/like_layout': '[912,645][1080,822]', 'tv.danmaku.bili:id/comment_layout': '[912,852][1080,1029]', 'tv.danmaku.bili:id/coin_layout': '[912,1059][1080,1236]', 'tv.danmaku.bili:id/favorite_layout': '[912,1266][1080,1443]', 'tv.danmaku.bili:id/share_layout': '[912,1473][1080,1650]', 'tv.danmaku.bili:id/story_ctrl_layer_danmaku': '[36,1782][912,1878]', '发弹幕': '[36,1785][736,1878]', 'tv.danmaku.bili:id/story_ctrl_danmaku_toggle': '[744,1785][912,1878]', 'tv.danmaku.bili:id/story_ctrl_screen': '[936,1785][1080,1920]', 'tv.danmaku.bili:id/container_top_back': '[0,73][138,205]', 'tv.danmaku.bili:id/container_top_search': '[828,73][930,205]', 'tv.danmaku.bili:id/container_top_more': '[951,73][1080,205]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/layer_avatar': '[40,1485][160,1605]', '食品科学阿祖': '[195,1483][447,1555]', 'tv.danmaku.bili:id/follow': '[471,1483][657,1555]', '42.9万粉丝': '[195,1561][373,1610]', '  514.3万播放  ': '[36,1655][912,1713]', 'tv.danmaku.bili:id/like_layout': '[912,645][1080,822]', 'tv.danmaku.bili:id/comment_layout': '[912,852][1080,1029]', 'tv.danmaku.bili:id/coin_layout': '[912,1059][1080,1236]', 'tv.danmaku.bili:id/favorite_layout': '[912,1266][1080,1443]', 'tv.danmaku.bili:id/share_layout': '[912,1473][1080,1650]', 'tv.danmaku.bili:id/story_ctrl_layer_danmaku': '[36,1782][912,1878]', '发弹幕': '[36,1785][736,1878]', 'tv.danmaku.bili:id/story_ctrl_danmaku_toggle': '[744,1785][912,1878]', 'tv.danmaku.bili:id/story_ctrl_screen': '[936,1785][1080,1920]', 'tv.danmaku.bili:id/container_top_back': '[0,73][138,205]', 'tv.danmaku.bili:id/container_top_search': '[828,73][930,205]', 'tv.danmaku.bili:id/container_top_more': '[951,73][1080,205]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/layer_avatar': '[40,1485][160,1605]', '食品科学阿祖': '[195,1483][447,1555]', 'tv.danmaku.bili:id/follow': '[471,1483][657,1555]', '42.9万粉丝': '[195,1561][373,1610]', '  514.3万播放  ': '[36,1655][912,1713]', 'tv.danmaku.bili:id/like_layout': '[912,645][1080,822]', 'tv.danmaku.bili:id/comment_layout': '[912,852][1080,1029]', 'tv.danmaku.bili:id/coin_layout': '[912,1059][1080,1236]', 'tv.danmaku.bili:id/favorite_layout': '[912,1266][1080,1443]', 'tv.danmaku.bili:id/share_layout': '[912,1473][1080,1650]', 'tv.danmaku.bili:id/story_ctrl_layer_danmaku': '[36,1782][912,1878]', '发弹幕': '[36,1785][736,1878]', 'tv.danmaku.bili:id/story_ctrl_danmaku_toggle': '[744,1785][912,1878]', 'tv.danmaku.bili:id/story_ctrl_screen': '[936,1785][1080,1920]', 'tv.danmaku.bili:id/container_top_back': '[0,73][138,205]', 'tv.danmaku.bili:id/container_top_search': '[828,73][930,205]', 'tv.danmaku.bili:id/container_top_more': '[951,73][1080,205]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/layer_avatar': '[40,1485][160,1605]', '食品科学阿祖': '[195,1483][447,1555]', 'tv.danmaku.bili:id/follow': '[471,1483][657,1555]', '42.9万粉丝': '[195,1561][373,1610]', '  514.3万播放  ': '[36,1655][912,1713]', 'tv.danmaku.bili:id/like_layout': '[912,645][1080,822]', 'tv.danmaku.bili:id/comment_layout': '[912,852][1080,1029]', 'tv.danmaku.bili:id/coin_layout': '[912,1059][1080,1236]', 'tv.danmaku.bili:id/favorite_layout': '[912,1266][1080,1443]', 'tv.danmaku.bili:id/share_layout': '[912,1473][1080,1650]', 'tv.danmaku.bili:id/story_ctrl_layer_danmaku': '[36,1782][912,1878]', '发弹幕': '[36,1785][736,1878]', 'tv.danmaku.bili:id/story_ctrl_danmaku_toggle': '[744,1785][912,1878]', 'tv.danmaku.bili:id/story_ctrl_screen': '[936,1785][1080,1920]', 'tv.danmaku.bili:id/container_top_back': '[0,73][138,205]', 'tv.danmaku.bili:id/container_top_search': '[828,73][930,205]', 'tv.danmaku.bili:id/container_top_more': '[951,73][1080,205]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    },
+    {
+        "role": "user",
+        "content": "我们要测试的App是: bilibili。可点击的组件有: {'tv.danmaku.bili:id/layer_avatar': '[40,1485][160,1605]', '食品科学阿祖': '[195,1483][447,1555]', 'tv.danmaku.bili:id/follow': '[471,1483][657,1555]', '42.9万粉丝': '[195,1561][373,1610]', '  514.3万播放  ': '[36,1655][912,1713]', 'tv.danmaku.bili:id/like_layout': '[912,645][1080,822]', 'tv.danmaku.bili:id/comment_layout': '[912,852][1080,1029]', 'tv.danmaku.bili:id/coin_layout': '[912,1059][1080,1236]', 'tv.danmaku.bili:id/favorite_layout': '[912,1266][1080,1443]', 'tv.danmaku.bili:id/share_layout': '[912,1473][1080,1650]', 'tv.danmaku.bili:id/story_ctrl_layer_danmaku': '[36,1782][912,1878]', '发弹幕': '[36,1785][736,1878]', 'tv.danmaku.bili:id/story_ctrl_danmaku_toggle': '[744,1785][912,1878]', 'tv.danmaku.bili:id/story_ctrl_screen': '[936,1785][1080,1920]', 'tv.danmaku.bili:id/container_top_back': '[0,73][138,205]', 'tv.danmaku.bili:id/container_top_search': '[828,73][930,205]', 'tv.danmaku.bili:id/container_top_more': '[951,73][1080,205]'}如果你的回答多次相同,请输出'adb shell input keyevent 4'用于返回上一界面.如果不同,请输入'adb shell input tap x y',其中x,y待定,请你从组件中随机选择合适的选项.尽量减少输出'adb shell input keyevent 4'的频率.只输出一行adb code,不要输出其他文本"
+    },
+    {
+        "role": "assistant",
+        "content": "adb shell input tap 548 1623"
+    }
+]
